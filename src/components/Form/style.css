@@ -1,0 +1,19 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 3px;
+  color: #FFF;
+}
+
+input {
+  font-size: 1rem;
+  padding: 10px 5px;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  width: 100%;
+}

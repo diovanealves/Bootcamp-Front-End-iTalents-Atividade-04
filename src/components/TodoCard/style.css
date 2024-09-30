@@ -1,0 +1,24 @@
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border: 2px solid #ccc;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+p {
+  font-size: 1.20rem;
+  font-weight: 600;
+  leading: 1.5;
+  flex-grow: 1;
+  margin: 0;
+  white-space: nowrap;
+}
